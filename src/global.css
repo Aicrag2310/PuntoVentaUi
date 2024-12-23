@@ -1,0 +1,23 @@
+body {
+    font-family: Poppins;
+    color: #262626;
+}
+
+.select-none {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.ens-money-cell {
+    min-width: 100px !important;
+}
+
+.centered-input input {
+    text-align: center;
+}
+
+.ens-sad-confirm-btn {
+    background-color: #ff0000 !important;
+}
