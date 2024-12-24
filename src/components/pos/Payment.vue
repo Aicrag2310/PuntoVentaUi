@@ -15,8 +15,8 @@
       </v-col>
     </v-col>
 
-    <v-col cols="12" lg="4" align-self="center" class="pr-0 pl-0">
-      <v-btn v-if="cartItemsLength > 0" @click="showCheckoutDialog" color="secondary" x-large class="d-none d-lg-flex">
+    <v-col cols="12" lg="4" align-self="center" class="pr-0 pl-0" style="text-align: center;">
+      <v-btn v-if="cartItemsLength > 0" @click="showCheckoutDialog" color="secondary">
         Cobrar
       </v-btn>
     </v-col>

@@ -1,24 +1,11 @@
 <template>
   <div ref="test" class="item-list-section">
-    <v-row ref="testo" class="mb-1">
-      <v-col class="item-list-title" cols="12" sm="1">
-        <div class="text-center text-h6 text-lg-h5 font-weight-bold">Id</div>
-      </v-col>
-      <v-col class="item-list-title" cols="12" sm="4">
-        <div class="text-h6 text-lg-h5 font-weight-bold pl-1">Producto</div>
-      </v-col>
-      <v-col class="item-list-title" cols="12" sm="2">
-        <div class="text-h6 text-lg-h5 font-weight-bold pl-1">Cantidad</div>
-      </v-col>
-      <v-col class="item-list-title text-right" cols="12" sm="2">
-        <div class="text-h6 text-lg-h5 font-weight-bold">P. Unit</div>
-      </v-col>
-      <v-col class="text-right item-list-title" cols="12" sm="2">
-        <div class="text-h6 text-lg-h5 font-weight-bold">Total</div>
-      </v-col>
-      <v-col class="text-center item-list-title" cols="12" sm="2">
-        <div class="text-h6 text-lg-h5 font-weight-bold"></div>
-      </v-col>
+    <v-row class="mb-2">
+      <v-col cols="3" sm="4" class="font-weight-bold">Producto</v-col>
+      <v-col cols="3" sm="2" class="text-center font-weight-bold">Cantidad</v-col>
+      <v-col cols="3" sm="2" class="text-right font-weight-bold">P. Unit</v-col>
+      <v-col cols="2" sm="2" class="text-right font-weight-bold">Total</v-col>
+      <v-col cols="1" sm="1" class="text-center font-weight-bold"></v-col>
     </v-row>
 
     <div

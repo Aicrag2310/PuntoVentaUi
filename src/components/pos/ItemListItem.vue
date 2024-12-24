@@ -1,19 +1,16 @@
 <template>
   <v-row :class="{ active: item.id === posCartPreviewItemId }" @click.stop="previewItemInfo(item)"
     class="item-list-item" @dblclick.stop="emitDblClick(item)">
-    <v-col cols="12" sm="1">
-      <div>{{ item.id }}</div>
-    </v-col>
-    <v-col cols="12" sm="4">
+    <v-col cols="3" sm="4">
       <div>{{ item.name }}</div>
     </v-col>
-    <v-col cols="12" sm="2">
+    <v-col cols="3" sm="2">
       <div>{{ item.quantity }}</div>
     </v-col>
-    <v-col class="text-right" cols="12" sm="2">
+    <v-col class="text-right" cols="3" sm="2">
       <div>{{ item.calculated_price }}</div>
     </v-col>
-    <v-col class="text-right" cols="12" sm="2">
+    <v-col class="text-right" cols="2" sm="2">
       <div>{{ (item.calculated_price * item.quantity).toFixed(2) }}</div>
     </v-col>
     <!-- Botón para eliminar el producto -->
